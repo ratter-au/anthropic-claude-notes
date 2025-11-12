@@ -7,9 +7,10 @@ including [`claude.ai`](https://claude.ai/) and the
 
 ## Contents
 
-- 📁 [`claude.ai/`](./claude.ai/) — primary Claude web UI and mobile app
-- 📁 [`api/`](./api/) — Anthropic API, including the web console
-- 📁 [`models/`](./models/) — the models themselves, organised by version
+- [`general/`](./general/) — general notes on Claude
+- [`claude.ai/`](./claude.ai/) — Claude web UI and mobile app
+- [`api/`](./api/) — Anthropic API, including the web console
+- [`models/`](./models/) — the models themselves, organised by version
 
 ## License
 
