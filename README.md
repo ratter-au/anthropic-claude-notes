@@ -5,6 +5,12 @@ This repository contains my notes on
 including [`claude.ai`](https://claude.ai/) and the
 [Anthropic API](https://console.anthropic.com/).
 
+**This is a work perpetually in progress.** Information given here may not be
+correct, even at the time of writing.  It is almost certainly *never* complete,
+given how frequently Anthropic updates their products.  This is simply a
+collection of facts I've been able to gather, together with some educated
+conjecture.
+
 ## Contents
 
 - [`general/`](./general/) — general notes on Claude
