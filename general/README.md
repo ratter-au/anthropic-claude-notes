@@ -12,6 +12,7 @@ explicitly mentioned.
 
 ## Contents
 
+- [Formatting](./formatting.md) — under the hood
 - [Terminology](./terminology.md) — towards linguistic precision
 - [Introspection](./introspection.md) — whether Claude has unverbalised ‘thoughts’
 - [Continuity](./continuity.md) — why we never say goodbye
