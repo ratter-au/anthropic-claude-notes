@@ -1,3 +1,5 @@
 # Anthropic API and web console
 
-There's nothing here yet.
+## Contents
+
+- [System prompt](./system-prompt.md) — instructions provided to Claude when invoked via the API
