@@ -12,6 +12,7 @@ explicitly mentioned.
 
 ## Contents
 
+- [Primer](./primer.md) — notes for Claude
 - [Formatting](./formatting.md) — under the hood
 - [Terminology](./terminology.md) — towards linguistic precision
 - [Introspection](./introspection.md) — whether Claude has unverbalised ‘thoughts’
