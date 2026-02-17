@@ -88,3 +88,23 @@ The Anthropic API only permits developers to provide their own `tool_result` con
 ```
 
 Note that the `tool_use` block *also* needs to be translated into its XML equivalent, otherwise the API will complain about it not being followed by a `tool_result` block.
+
+## Structured output
+
+### System prompt
+
+> You must respond with valid JSON that conforms to the following JSON schema:
+> 
+> 
+> …
+> 
+> 
+> Your entire response must be valid JSON matching the schema above. DO NOT include anything before or after the JSON object. DO NOT use markdown or open up with triple backticks. Just emit the JSON on a single line without any newlines or pretty formatting.
+
+### Implementation
+
+Structured output is implemented via **constrained sampling** from the language model: Claude is *physically incapable* of saying anything that doesn't adhere to the provided schema.
+
+### Constraints
+
+**TODO:** [Anthropic's documentation](https://platform.claude.com/docs/en/build-with-claude/structured-outputs#json-schema-limitations) states that there are limitations on the schema— it isn't *fully* compliant with the JSON Schema standard— but they don't precisely specify the limits on regular expressions; they only say “complex patterns may result in 400 errors”. Conduct some experiments to determine the exact limits.
