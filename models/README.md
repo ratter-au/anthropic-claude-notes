@@ -1,3 +1,3 @@
 # Claude models
 
-There's nothing here yet.
+- [Index of publicly released models](./index.md)
