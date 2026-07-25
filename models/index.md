@@ -4,16 +4,16 @@ The following table lists the dates in the model lifecycle for all publicly rele
 
 Anthropic typically “retires” their models from their own infrastructure approximately one year after release, although they have committed to archiving the weights of every model that was ever released, with the stated intention of making deprecated models available again when it becomes financially and logistically feasible. Some models may remain available beyond their official retirement via third-party inference providers such as Amazon and Google, which have their own separate retirement dates; the dates in this table refer to the Anthropic API only.
 
-**Last updated:** 2026-07-02. Still a work in progress. Need to dig through the Internet Archive because Anthropic's website no longer lists some details for older models.
+**Last updated:** 2026-07-25. Still a work in progress. Need to dig through the Internet Archive because Anthropic's website no longer lists some details for older models.
 
 | Model name                | Knowledge  | Training   | Release    | Retirement   |
 | ------------------------- | ---------- | ---------- | ---------- | ------------ |
 | Claude 1                  | ?          | ?          | 2023-03-14 |   2024-11-06 |
 | Claude Instant            | ?          | ?          | 2023-03-14 |   2024-11-06 |
 | Claude 1.1                | ?          | ?          | ?          |   2024-11-06 |
-| Claude 1.2                | ?          | ?          | ?          |   2024-11-06 |
-| Claude 1.3                | ?          | ?          | 2023-07    |   2024-11-06 |
 | Claude Instant 1.1        | ?          | ?          | ?          |   2024-11-06 |
+| Claude 1.2                | ?          | ?          | ?          |   2024-11-06 |
+| Claude 1.3                | ?          | ?          | 2023-04-18 |   2024-11-06 |
 | Claude 2                  | early 2023 | early 2023 | 2023-07-11 |   2025-07-21 |
 | Claude Instant 1.2        | early 2023 | early 2023 | 2023-08-09 |   2024-11-06 |
 | Claude 2.1                | early 2023 | early 2023 | 2023-11-21 |   2025-07-21 |
@@ -38,6 +38,7 @@ Anthropic typically “retires” their models from their own infrastructure app
 | Claude Mythos[^2] 5       | 2026-01    | 2026-01    | 2026-06-09 | ≥ 2027-06-09 |
 | Claude Fable[^3] 5        | 2026-01    | 2026-01    | 2026-06-09 | ≥ 2027-06-09 |
 | Claude Sonnet 5           | 2026-01    | 2026-01    | 2026-06-30 | ≥ 2027-06-30 |
+| Claude Opus 5             | 2026-05    | 2026-05    | 2026-07-24 | ≥ 2027-07-24 |
 
 [^1] Claude 3 Opus remains accessible to Anthropic API users via a “research access” program. So far, access has been granted to everyone who has requested it.
 
